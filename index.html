@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regnant Clothing</title>
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/letter-s.png"
+      type="image/svg+xml"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+  </head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo2-removebg-preview (1).png"
+            alt="Hoolix Logo"
+            style="height: 80px; vertical-align: middle; margin-right: 5px"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="wrapper">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo2-removebg-preview (1).png"
+                alt="Hoolix Logo"
+                style="height: 60px; vertical-align: middle; margin-right: 5px"
+              />
+            </a>
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>About</a>
+            </li>
+
+            <li>
+              <a href="#services" class="navbar-link" data-nav-link>Services</a>
+            </li>
+
+            <li>
+              <a href="#privacy-policy" class="navbar-link" data-nav-link
+                >Privacy Policy</a
+              >
+            </li>
+
+            <li>
+              <a href="#terms-and-conditions" class="navbar-link" data-nav-link
+                >Terms and Condition</a
+              >
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#contact" class="btn-outline">Lets talk</a>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="section hero" id="home" aria-label="hero">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle has-before">
+                Welcome to Regnant Clothing
+              </p>
+
+              <h1 class="h1 hero-title">Redefine Your Style with Elegance</h1>
+
+              <p class="hero-text">
+                Discover premium fashion designed for modern comfort and
+                timeless appeal. Regnant Clothing offers curated collections
+                that elevate your wardrobe — from everyday essentials to
+                standout pieces. Perfect your look with us today.
+              </p>
+
+              <div class="btn-group">
+                <a href="#collections" class="btn btn-primary"
+                  >Shop the Collection</a
+                >
+              </div>
+            </div>
+
+            <figure
+              class="hero-banner has-before img-holder"
+              style="--width: 650; --height: 650"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=650&q=80"
+                width="650"
+                height="650"
+                alt="Regnant Clothing Model Banner"
+                class="img-cover"
+              />
+            </figure>
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section class="section about" id="about" aria-label="about">
+          <div class="container about-flex">
+            <style>
+              @media (max-width: 768px) {
+                .about-banner img {
+                  height: auto !important;
+                  max-height: 100%;
+                }
+              }
+            </style>
+
+            <figure class="about-banner">
+              <img
+                src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y2xvdGhpbmd8ZW58MHx8MHx8fDA%3D"
+                loading="lazy"
+                alt="Regnant Clothing Showcase"
+                class="w-100"
+                style="height: 600px; width: 100%"
+              />
+            </figure>
+
+            <div class="about-content">
+              <h2 class="h2-sm section-title">
+                Regnant Clothing – Redefining Elegance in Every Stitch
+              </h2>
+
+              <ul class="about-list">
+                <li class="has-before">
+                  Premium fabrics crafted for comfort, durability, and timeless
+                  style.
+                </li>
+                <li class="has-before">
+                  Exclusive collections for both men and women — from casual to
+                  formal.
+                </li>
+                <li class="has-before">
+                  Tailored fits and versatile designs that elevate your everyday
+                  look.
+                </li>
+                <li class="has-before">
+                  Ethically sourced materials and sustainable fashion practices.
+                </li>
+                <li class="has-before">
+                  Exceptional customer service and a seamless shopping
+                  experience.
+                </li>
+                <li class="has-before">
+                  Loved by fashion-forward customers across the country.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section class="section service" id="services" aria-label="service">
+          <div class="container">
+            <p class="section-subtitle text-center">- What We Offer -</p>
+
+            <h2 class="h2 section-title text-center">
+              Our Exclusive Clothing Services
+            </h2>
+
+            <p class="section-text text-center">
+              Regnant Clothing brings you high-quality apparel, tailored fashion
+              advice, and exceptional service to elevate your personal style.
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card has-after">
+                  <figure class="card-icon">
+                    <img
+                      src="https://images.unsplash.com/photo-1561365452-adb940139ffa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODB8fGNsb3RoaW5nfGVufDB8fDB8fHww"
+                      width="140"
+                      height="140"
+                      loading="lazy"
+                      alt="Premium Clothing"
+                      class="img"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Premium Quality Fabrics</h3>
+
+                    <p class="card-text">
+                      Experience the luxury of handpicked materials designed for
+                      comfort, durability, and timeless fashion.
+                    </p>
+
+                    <a href="#" class="btn-link">
+                      <span class="span">Read More</span>
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card has-after">
+                  <figure class="card-icon">
+                    <img
+                      src="https://images.unsplash.com/photo-1613461920867-9ea115fee900?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzV8fGNsb3RoaW5nfGVufDB8fDB8fHww"
+                      width="140"
+                      height="140"
+                      loading="lazy"
+                      alt="Custom Styling"
+                      class="img"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h3 card-title">Personal Styling Assistance</h3>
+
+                    <p class="card-text">
+                      Get personalized fashion advice from our in-house stylists
+                      to create your perfect look for any occasion.
+                    </p>
+
+                    <a href="#" class="btn-link">
+                      <span class="span">Read More</span>
+                      <ion-icon
+                        name="arrow-forward-outline"
+                        aria-hidden="true"
+                      ></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#" class="btn btn-primary">Shop Now</a>
+          </div>
+        </section>
+
+        <section
+          class="section features"
+          id="services"
+          aria-label="our-services"
+        >
+          <div class="container">
+            <p
+              class="section-subtitle text-center"
+              style="font-size: 1.8rem; font-weight: bold"
+            >
+              - Regnant Clothing Services -
+            </p>
+
+            <h2
+              class="h2 section-title text-center"
+              style="font-size: 1.8rem; font-weight: 500"
+            >
+              What We Offer
+            </h2>
+
+            <p class="section-text text-center">
+              Discover our premium fashion solutions—from luxurious fabrics to
+              expert styling and fast delivery, all designed for the modern
+              wardrobe.
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="features-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1540221652346-e5dd6b50f3e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjN8fGNsb3RoaW5nfGVufDB8fDB8fHww"
+                    alt="Personal Styling"
+                    class="card-image"
+                    style="
+                      width: 100%;
+                      height: 300px;
+                      object-fit: cover;
+                      border-radius: 8px;
+                    "
+                  />
+                  <h3 class="h3 card-title">Personal Styling Support</h3>
+                  <p class="card-text">
+                    Need fashion guidance? Our stylists help you pick the
+                    perfect outfit for every occasion—festive or formal.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNsb3RoaW5nfGVufDB8fDB8fHww"
+                    alt="Exclusive Collections"
+                    class="card-image"
+                    style="
+                      width: 100%;
+                      height: 300px;
+                      object-fit: cover;
+                      border-radius: 8px;
+                    "
+                  />
+                  <h3 class="h3 card-title">Exclusive Seasonal Collections</h3>
+                  <p class="card-text">
+                    Stay in trend with our exclusive seasonal drops featuring
+                    hand-curated looks and limited-edition pieces.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <img
+                    src="https://images.unsplash.com/photo-1609709295948-17d77cb2a69b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fGNsb3RoaW5nfGVufDB8fDB8fHww"
+                    alt="Fast Delivery"
+                    class="card-image"
+                    style="
+                      width: 100%;
+                      height: 300px;
+                      object-fit: cover;
+                      border-radius: 8px;
+                    "
+                  />
+                  <h3 class="h3 card-title">Fast & Reliable Delivery</h3>
+                  <p class="card-text">
+                    Receive your fashion essentials at lightning speed with our
+                    trusted shipping partners across India and abroad.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURES
+      -->
+        <section
+          class="section features"
+          id="terms-and-conditions"
+          aria-label="terms-and-conditions"
+        >
+          <div class="container">
+            <p
+              class="section-subtitle text-center"
+              style="font-size: 2rem; font-weight: bold"
+            >
+              - Regnant Clothing Terms and Conditions -
+            </p>
+            <h2
+              class="h2 section-title text-center"
+              style="font-size: 1.4rem; font-weight: 500"
+            >
+              Please Read These Terms Carefully
+            </h2>
+
+            <p class="section-text text-center">
+              Effective Date: 11 June 2025<br />
+              Last Updated: 11 June 2026
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="01">01</data>
+                  <h3 class="h3 card-title">Acceptance of Terms</h3>
+                  <p class="card-text">
+                    By accessing or using our website and services, you agree to
+                    be bound by these Terms and Conditions. If you do not agree
+                    with any part of the terms, please do not use our platform.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="02">02</data>
+                  <h3 class="h3 card-title">Eligibility</h3>
+                  <p class="card-text">
+                    You must be at least 18 years old to use this website and
+                    place orders. By using our platform, you confirm that you
+                    meet this requirement.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="03">03</data>
+                  <h3 class="h3 card-title">User Responsibilities</h3>
+                  <p class="card-text">
+                    You agree to provide accurate, current, and complete
+                    information while placing orders or registering an account.
+                    You are responsible for maintaining confidentiality of your
+                    login credentials.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="04">04</data>
+                  <h3 class="h3 card-title">Product Descriptions</h3>
+                  <p class="card-text">
+                    We strive to ensure all product information is accurate.
+                    However, slight variations in color, fabric, and
+                    measurements may occur. Regnant Clothing does not guarantee
+                    that descriptions are error-free.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="05">05</data>
+                  <h3 class="h3 card-title">Pricing & Payments</h3>
+                  <p class="card-text">
+                    All prices are listed in INR (₹) and include applicable
+                    taxes. We reserve the right to update prices at any time.
+                    Payment must be made in full via our secure payment gateway
+                    before order processing.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="06">06</data>
+                  <h3 class="h3 card-title">Shipping & Delivery</h3>
+                  <p class="card-text">
+                    Orders are processed within 2–4 business days. Delivery
+                    timelines vary based on location. We are not responsible for
+                    delays caused by courier partners or external factors.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="07">07</data>
+                  <h3 class="h3 card-title">Returns & Exchanges</h3>
+                  <p class="card-text">
+                    We accept returns/exchanges for eligible items within 7 days
+                    of delivery. Items must be unused, unwashed, and with
+                    original tags. For full return policy, please visit our
+                    Returns page or contact customer care.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="08">08</data>
+                  <h3 class="h3 card-title">Refund Policy</h3>
+                  <p class="card-text">
+                    Refunds (if applicable) are processed to the original
+                    payment method within 7–10 business days after approval.
+                    Shipping charges are non-refundable unless the return is due
+                    to our error.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="09">09</data>
+                  <h3 class="h3 card-title">Intellectual Property</h3>
+                  <p class="card-text">
+                    All content on this site—including images, logos, designs,
+                    and text—is the property of Regnant Clothing and protected
+                    by Indian copyright law. Unauthorized use is strictly
+                    prohibited.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="10">10</data>
+                  <h3 class="h3 card-title">Limitation of Liability</h3>
+                  <p class="card-text">
+                    Regnant Clothing shall not be liable for any indirect,
+                    incidental, or consequential damages resulting from the use
+                    or inability to use our website or services.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="11">11</data>
+                  <h3 class="h3 card-title">Modifications to Terms</h3>
+                  <p class="card-text">
+                    We may update these Terms & Conditions at any time without
+                    prior notice. It is your responsibility to review them
+                    regularly. Continued use of the website implies acceptance
+                    of updated terms.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="12">12</data>
+                  <h3 class="h3 card-title">Governing Law</h3>
+                  <p class="card-text">
+                    These Terms are governed by and construed in accordance with
+                    the laws of India. Any disputes shall be subject to the
+                    exclusive jurisdiction of the courts of Surat, Gujarat.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="13">13</data>
+                  <h3 class="h3 card-title">Contact Information</h3>
+                  <p class="card-text">
+                    If you have any questions about these Terms & Conditions,
+                    contact us:<br />
+                    <strong>Regnant Clothing</strong><br />
+                    📧 Email: regnantgroup@gmail.com<br />
+                    📞 Phone: +91 90995 25149, +91 84888 96561<br />
+                    📍 Address: Shop No. 03, Raj Arcade, Opp. Raj Victoria,<br />
+                    Near Galaxy Circle, Pal Adajan, Surat – 395009, Gujarat,
+                    India
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- privacy policy  -->
+        <section
+          class="section features"
+          id="privacy-policy"
+          aria-label="privacy-policy"
+        >
+          <div class="container">
+            <p
+              class="section-subtitle text-center"
+              style="font-size: 2rem; font-weight: bold"
+            >
+              - Regnant Clothing Privacy Policy -
+            </p>
+            <h2
+              class="h2 section-title text-center"
+              style="font-size: 1.4rem; font-weight: 500"
+            >
+              Your Privacy Matters to Us
+            </h2>
+
+            <p class="section-text text-center">
+              Effective Date: 11 June 2025<br />
+              Last Updated: 11 June 2026
+            </p>
+
+            <p class="section-text text-center">
+              Regnant Clothing (“we”, “us”, or “our”) values your trust. This
+              Privacy Policy explains how we collect, use, share, and protect
+              your personal information when you visit our website or make a
+              purchase from us. By using our services, you agree to the
+              practices described in this policy.
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="01">01</data>
+                  <h3 class="h3 card-title">Information We Collect</h3>
+                  <p class="card-text">
+                    We may collect the following types of information:<br />
+                    - Personal details: Full Name, Mobile Number, Email Address,
+                    Shipping/Billing Address.<br />
+                    - Transactional data: Order history, payment method
+                    (processed via secure third-party gateways).<br />
+                    - Technical data: IP address, browser type, device
+                    information, and usage data (via cookies and analytics).
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="02">02</data>
+                  <h3 class="h3 card-title">How We Use Your Information</h3>
+                  <p class="card-text">
+                    - To process your orders and manage your account.<br />
+                    - To provide customer support.<br />
+                    - To send updates, order confirmations, or promotional
+                    offers (you can opt out anytime).<br />
+                    - To improve our website and marketing strategies.<br />
+                    - To comply with legal obligations.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="03">03</data>
+                  <h3 class="h3 card-title">Sharing Your Information</h3>
+                  <p class="card-text">
+                    We do not sell your data. We may share it with:<br />
+                    - Delivery partners to ensure timely delivery.<br />
+                    - Payment gateways for secure transaction processing.<br />
+                    - Service providers for analytics, hosting, and website
+                    maintenance.<br />
+                    - Legal authorities if required by law.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="04">04</data>
+                  <h3 class="h3 card-title">Data Security</h3>
+                  <p class="card-text">
+                    We take appropriate security measures to protect your
+                    information. This includes SSL encryption, secure servers,
+                    and restricted access. However, no digital platform is 100%
+                    secure. You use the service at your own risk.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="05">05</data>
+                  <h3 class="h3 card-title">Cookies & Tracking</h3>
+                  <p class="card-text">
+                    Our website uses cookies to personalize your experience and
+                    collect usage data. You may control cookie settings in your
+                    browser, but disabling them may limit some functionality.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="06">06</data>
+                  <h3 class="h3 card-title">Data Retention</h3>
+                  <p class="card-text">
+                    We retain your personal data only as long as necessary for
+                    legitimate business purposes and legal compliance. When no
+                    longer needed, we securely delete or anonymize your data.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="07">07</data>
+                  <h3 class="h3 card-title">Your Rights</h3>
+                  <p class="card-text">
+                    You have the right to:<br />
+                    - Access the personal data we hold about you.<br />
+                    - Request correction or deletion of your data.<br />
+                    - Withdraw your consent at any time.<br />
+                    - Lodge a complaint with a data protection authority if
+                    applicable.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="08">08</data>
+                  <h3 class="h3 card-title">Children's Privacy</h3>
+                  <p class="card-text">
+                    Our services are intended for individuals 18 years and
+                    older. We do not knowingly collect data from minors. If we
+                    discover such information, we will promptly delete it.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="09">09</data>
+                  <h3 class="h3 card-title">Third-Party Links</h3>
+                  <p class="card-text">
+                    Our website may contain links to third-party websites. We
+                    are not responsible for their privacy practices. Please
+                    review their privacy policies before interacting with them.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="10">10</data>
+                  <h3 class="h3 card-title">Policy Updates</h3>
+                  <p class="card-text">
+                    This Privacy Policy may be updated from time to time. Any
+                    changes will be reflected on this page with an updated
+                    effective date. Continued use of our site means you accept
+                    the updated policy.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <div class="features-card">
+                  <data class="card-number" value="11">11</data>
+                  <h3 class="h3 card-title">Contact Information</h3>
+                  <p class="card-text">
+                    Have questions? Reach out to us:<br />
+                    <strong>Regnant Clothing</strong><br />
+                    📧 Email: regnantgroup@gmail.com<br />
+                    📞 Phone: +91 90995 25149, +91 84888 96561<br />
+                    📍 Address: Shop No. 03, Raj Arcade,<br />
+                    Opp. Raj Victoria, Near Galaxy Circle,<br />
+                    Pal Adajan, Surat – 395009, Gujarat, India
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+        - #FAQ
+      -->
+
+        <!-- Font Awesome CDN (include in <head>) -->
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+          integrity="sha512-paphtYr8Kx1rhEzyC+B9ZGR9Z+5iR2H7V5Zw5rJwKfFRAkE4KpGFiuvpxUL5RjpuqkRkYXYRmQ6vvQeI7NNE1w=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"
+        />
+
+        <section
+          class="section-subtitle text-center"
+          id="contact"
+          aria-label="contact"
+        >
+          <div
+            class="container"
+            style="max-width: 1200px; margin: auto; padding: 20px"
+          >
+            <p
+              style="
+                font-size: 2.4rem;
+                font-weight: 800;
+                text-align: center;
+                margin-bottom: 10px;
+                color: #333;
+              "
+            >
+              - Contact Regnant Clothing -
+            </p>
+
+            <h2
+              style="
+                font-size: 1.8rem;
+                font-weight: 700;
+                text-align: center;
+                color: #000;
+                margin-bottom: 25px;
+              "
+            >
+              We’d Love to Hear From You
+            </h2>
+
+            <p
+              style="
+                text-align: center;
+                margin-bottom: 35px;
+                font-size: 14px;
+                font-weight: 700;
+                color: #000;
+              "
+            >
+              Whether you have a question about our products, sizing, or order
+              support — feel free to reach out to us using the contact details
+              below.
+            </p>
+
+            <div
+              style="
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+              "
+            >
+              <!-- Address -->
+              <div
+                style="
+                  flex: 1 1 280px;
+                  max-width: 320px;
+                  min-width: 260px;
+                  height: 230px;
+                  padding: 20px;
+                  border: 1px solid #ccc;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  text-align: center;
+                  background-color: #f9f9f9;
+                "
+              >
+                <i
+                  class="fas fa-map-marker-alt"
+                  style="font-size: 2.4rem; color: #007bff"
+                ></i>
+                <h3
+                  style="
+                    margin-top: 15px;
+                    font-size: 18px;
+                    font-weight: 800;
+                    color: #000;
+                  "
+                >
+                  Address
+                </h3>
+                <p
+                  style="
+                    margin-top: 10px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #000;
+                  "
+                >
+                  Shop No.03, Raj Arcade,<br />
+                  Opposite Raj Victoria, Near Galaxy Circle,<br />
+                  Pal, Adajan, Surat – 395009
+                </p>
+              </div>
+
+              <!-- Phone -->
+              <div
+                style="
+                  flex: 1 1 280px;
+                  max-width: 320px;
+                  min-width: 260px;
+                  height: 230px;
+                  padding: 20px;
+                  border: 1px solid #ccc;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  text-align: center;
+                  background-color: #f9f9f9;
+                "
+              >
+                <i
+                  class="fas fa-phone-alt"
+                  style="font-size: 2.4rem; color: #28a745"
+                ></i>
+                <h3
+                  style="
+                    margin-top: 15px;
+                    font-size: 18px;
+                    font-weight: 800;
+                    color: #000;
+                  "
+                >
+                  Phone
+                </h3>
+                <p
+                  style="
+                    margin-top: 10px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #000;
+                  "
+                >
+                  +91 90995 25149<br />
+                  +91 84888 96561
+                </p>
+              </div>
+
+              <!-- Email -->
+              <div
+                style="
+                  flex: 1 1 280px;
+                  max-width: 320px;
+                  min-width: 260px;
+                  height: 230px;
+                  padding: 20px;
+                  border: 1px solid #ccc;
+                  border-radius: 10px;
+                  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                  text-align: center;
+                  background-color: #f9f9f9;
+                "
+              >
+                <i
+                  class="fas fa-envelope"
+                  style="font-size: 2.4rem; color: #dc3545"
+                ></i>
+                <h3
+                  style="
+                    margin-top: 15px;
+                    font-size: 18px;
+                    font-weight: 800;
+                    color: #000;
+                  "
+                >
+                  Email
+                </h3>
+                <p
+                  style="
+                    margin-top: 10px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #000;
+                  "
+                >
+                  <a
+                    href="mailto:regnantgroup@gmail.com"
+                    style="color: #000; text-decoration: none"
+                  >
+                    regnantgroup@gmail.com
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- <section class="section faq" aria-label="frequently asked questions">
+          <div class="container">
+            <div class="title-wrapper">
+              <h2 class="h2 section-title">
+                Discover Frequently Asked Questions?
+              </h2>
+
+              <a href="#" class="btn btn-primary">Work Together</a>
+            </div>
+
+            <ul class="grid-list">
+              <li>
+                <div class="faq-card">
+                  <button class="card-action" data-accordion-action>
+                    <h3 class="h3 card-title">
+                      01. Curious about how to build your own UX strategy? Here
+                      are five simple steps.
+                    </h3>
+
+                    <div class="action-icon">
+                      <ion-icon
+                        name="add-outline"
+                        aria-hidden="true"
+                        class="open"
+                      ></ion-icon>
+                      <ion-icon
+                        name="remove-outline"
+                        aria-hidden="true"
+                        class="close"
+                      ></ion-icon>
+                    </div>
+                  </button>
+
+                  <div class="card-content">
+                    <p>
+                      Morbi aliquam quis quam in luctus. Nullam tincidunt
+                      pulvinar imperdiet. Sed varius, diam vitae posuere semper,
+                      libero ex hendrerit nunc, ac sagittis eros metus ut diam.
+                      Donec a nibh in libero maximus vehicula. Etiam sit amet
+                      condimentum erat. Pellentesque ultrices sagittis turpis,
+                      quis tempus ante viverra et.Morbi aliquam quis quam in
+                      luctus. Nullam tincidunt pulvinar imperdiet. Sed varius,
+                      diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                      Sed varius, diam vitae posuere semper.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="faq-card">
+                  <button class="card-action" data-accordion-action>
+                    <h3 class="h3 card-title">
+                      02. Where Could a Career in UX Take You? Agency vs.
+                      In-House vs. Freelance?
+                    </h3>
+
+                    <div class="action-icon">
+                      <ion-icon
+                        name="add-outline"
+                        aria-hidden="true"
+                        class="open"
+                      ></ion-icon>
+                      <ion-icon
+                        name="remove-outline"
+                        aria-hidden="true"
+                        class="close"
+                      ></ion-icon>
+                    </div>
+                  </button>
+
+                  <div class="card-content">
+                    <p>
+                      Morbi aliquam quis quam in luctus. Nullam tincidunt
+                      pulvinar imperdiet. Sed varius, diam vitae posuere semper,
+                      libero ex hendrerit nunc, ac sagittis eros metus ut diam.
+                      Donec a nibh in libero maximus vehicula. Etiam sit amet
+                      condimentum erat. Pellentesque ultrices sagittis turpis,
+                      quis tempus ante viverra et.Morbi aliquam quis quam in
+                      luctus. Nullam tincidunt pulvinar imperdiet. Sed varius,
+                      diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                      Sed varius, diam vitae posuere semper.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="faq-card">
+                  <button class="card-action" data-accordion-action>
+                    <h3 class="h3 card-title">
+                      03. What Is a Problem Statement in UX? (And How To Write
+                      One?
+                    </h3>
+
+                    <div class="action-icon">
+                      <ion-icon
+                        name="add-outline"
+                        aria-hidden="true"
+                        class="open"
+                      ></ion-icon>
+                      <ion-icon
+                        name="remove-outline"
+                        aria-hidden="true"
+                        class="close"
+                      ></ion-icon>
+                    </div>
+                  </button>
+
+                  <div class="card-content">
+                    <p>
+                      Morbi aliquam quis quam in luctus. Nullam tincidunt
+                      pulvinar imperdiet. Sed varius, diam vitae posuere semper,
+                      libero ex hendrerit nunc, ac sagittis eros metus ut diam.
+                      Donec a nibh in libero maximus vehicula. Etiam sit amet
+                      condimentum erat. Pellentesque ultrices sagittis turpis,
+                      quis tempus ante viverra et.Morbi aliquam quis quam in
+                      luctus. Nullam tincidunt pulvinar imperdiet. Sed varius,
+                      diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                      Sed varius, diam vitae posuere semper.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="faq-card">
+                  <button class="card-action" data-accordion-action>
+                    <h3 class="h3 card-title">
+                      04. There are several techniques UX designers employ to
+                      arrive at a succinct?
+                    </h3>
+
+                    <div class="action-icon">
+                      <ion-icon
+                        name="add-outline"
+                        aria-hidden="true"
+                        class="open"
+                      ></ion-icon>
+                      <ion-icon
+                        name="remove-outline"
+                        aria-hidden="true"
+                        class="close"
+                      ></ion-icon>
+                    </div>
+                  </button>
+
+                  <div class="card-content">
+                    <p>
+                      Morbi aliquam quis quam in luctus. Nullam tincidunt
+                      pulvinar imperdiet. Sed varius, diam vitae posuere semper,
+                      libero ex hendrerit nunc, ac sagittis eros metus ut diam.
+                      Donec a nibh in libero maximus vehicula. Etiam sit amet
+                      condimentum erat. Pellentesque ultrices sagittis turpis,
+                      quis tempus ante viverra et.Morbi aliquam quis quam in
+                      luctus. Nullam tincidunt pulvinar imperdiet. Sed varius,
+                      diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                      Sed varius, diam vitae posuere semper.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="faq-card">
+                  <button class="card-action" data-accordion-action>
+                    <h3 class="h3 card-title">
+                      05. What are the obstacles users are facing? What are they
+                      trying to do?
+                    </h3>
+
+                    <div class="action-icon">
+                      <ion-icon
+                        name="add-outline"
+                        aria-hidden="true"
+                        class="open"
+                      ></ion-icon>
+                      <ion-icon
+                        name="remove-outline"
+                        aria-hidden="true"
+                        class="close"
+                      ></ion-icon>
+                    </div>
+                  </button>
+
+                  <div class="card-content">
+                    <p>
+                      Morbi aliquam quis quam in luctus. Nullam tincidunt
+                      pulvinar imperdiet. Sed varius, diam vitae posuere semper,
+                      libero ex hendrerit nunc, ac sagittis eros metus ut diam.
+                      Donec a nibh in libero maximus vehicula. Etiam sit amet
+                      condimentum erat. Pellentesque ultrices sagittis turpis,
+                      quis tempus ante viverra et.Morbi aliquam quis quam in
+                      luctus. Nullam tincidunt pulvinar imperdiet. Sed varius,
+                      diam vitae posuere semper, tincidunt pulvinar imperdiet.
+                      Sed varius, diam vitae posuere semper.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section> -->
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="footer-top section">
+        <div class="container">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo2-removebg-preview (1).png"
+                alt="Regnant Clothing Logo"
+                style="height: 80px; vertical-align: middle; margin-right: 5px"
+              />
+            </a>
+            <p class="footer-text">
+              Regnant Clothing - Your premium destination for trendsetting,
+              quality fashion. Stylish. Affordable. Timeless.
+            </p>
+
+            <form action="" class="newsletter-form">
+              <input
+                type="email"
+                name="email_address"
+                placeholder="Enter your email"
+                required
+                class="email-field"
+              />
+              <button type="submit" class="form-btn">
+                <ion-icon name="paper-plane" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Shop Now</p>
+            </li>
+            <li><a href="#" class="footer-link">Men’s Collection</a></li>
+            <li><a href="#" class="footer-link">Women’s Collection</a></li>
+            <li><a href="#" class="footer-link">New Arrivals</a></li>
+            <li><a href="#" class="footer-link">Best Sellers</a></li>
+            <li><a href="#" class="footer-link">Festive Offers</a></li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Company</p>
+            </li>
+            <li><a href="#" class="footer-link">About Us</a></li>
+            <li><a href="#" class="footer-link">Our Products</a></li>
+            <li><a href="#" class="footer-link">Privacy Policy</a></li>
+            <li><a href="#" class="footer-link">Terms and Conditions</a></li>
+            <li><a href="#" class="footer-link">Contact Us</a></li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title">Contact Us</p>
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="location" aria-hidden="true"></ion-icon>
+              <address class="contact-link address">
+                Shop No.03, Raj Arcade,<br />
+                Opposite Raj Victoria, Near Galaxy Circle,<br />
+                Pal, Adajan, Surat – 395009, Gujarat
+              </address>
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+              <a href="tel:+919099525149" class="contact-link"
+                >+91 9099525149</a
+              >
+              <a href="tel:+918488896561" class="contact-link"
+                >+91 8488896561</a
+              >
+            </li>
+
+            <li class="footer-item">
+              <ion-icon name="mail" aria-hidden="true"></ion-icon>
+              <a href="mailto:regnantgroup@gmail.com" class="contact-link"
+                >regnantgroup@gmail.com</a
+              >
+            </li>
+
+            <li class="footer-item">
+              <ul class="social-list">
+                <li>
+                  <a
+                    href="https://www.facebook.com"
+                    class="social-link"
+                    target="_blank"
+                  >
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com"
+                    class="social-link"
+                    target="_blank"
+                  >
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <p class="copyright">
+            &copy; 2025 Regnant Clothing | All Rights Reserved.
+          </p>
+
+          <ul class="footer-bottom-list">
+            <li>
+              <a href="#privacy-policy" class="footer-bottom-link"
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a href="#terms-and-conditions" class="footer-bottom-link"
+                >Terms of Use</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
